@@ -13,6 +13,7 @@ window.addEventListener('load', () => {
       window.location.href = contactButton.href;
     });
   }
+  //load pdf into html of pdf-container 
   function loadPDF() {
     const container = document.getElementById('pdf-container');
     container.innerHTML = `
