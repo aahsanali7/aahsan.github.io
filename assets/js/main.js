@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
   function loadPDF() {
     const container = document.getElementById('pdf-container');
     container.innerHTML = `
-      <iframe src="resume.pdf" width="100%" height="600px"></iframe>
+      <iframe src="cv.pdf" width="100%" height="600px"></iframe>
     `;
   }
   
